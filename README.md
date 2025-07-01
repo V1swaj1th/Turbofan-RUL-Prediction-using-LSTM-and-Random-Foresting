@@ -46,10 +46,10 @@ The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engi
 ##  Results & Visualizations
 
 **Graph 1**: Scatter plot comparing true RUL vs. predicted RUL for Random Forest & LSTM  
-![Graph 1](images/graph1.png)
+![Graph 1](images/graph1.jpg)
 
 **Graph 2**: Detailed visualization of true vs. predicted RUL for LSTM  
-![Graph 2](images/graph2.png)
+![Graph 2](images/graph2.jpg)
 
 **Observations**:
 - Points close to the diagonal line indicate accurate predictions.
