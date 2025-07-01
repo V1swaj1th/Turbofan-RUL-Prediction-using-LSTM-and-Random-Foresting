@@ -67,6 +67,6 @@ The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engi
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 - Both models could predict RUL with varying degrees of accuracy.
 - **LSTM outperformed Random Forest**, achieving lower RMSE and better alignment with true RUL.
