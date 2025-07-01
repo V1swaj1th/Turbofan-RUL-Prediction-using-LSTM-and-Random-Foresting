@@ -1,11 +1,11 @@
-# 🛠️ IDA Mini Project: Remaining Useful Life Prediction for Turbofan Engines
+#  IDA Mini Project: Remaining Useful Life Prediction for Turbofan Engines
 
-## 📑 Problem Statement
+##  Problem Statement
 The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engines using multivariate time series data. Each time series corresponds to a different engine with unknown initial wear and manufacturing variations. Engines operate normally at the start of each series and develop faults over time. The goal is to estimate the number of cycles remaining before failure in the test set.
 
 ---
 
-## 📂 Dataset
+##  Dataset
 - **Dataset Used**: FD004  
   - **Training trajectories**: 248  
   - **Test trajectories**: 249  
@@ -16,7 +16,7 @@ The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engi
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 1. **Data Preprocessing**
    - Load FD004 dataset.
    - Normalize and prepare features for modeling.
@@ -31,7 +31,7 @@ The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engi
 
 ---
 
-## 🎯 Why These Models?
+##  Why These Models?
 - **Random Forest Regressor**:
   - Handles high-dimensional sensor data.
   - Models complex, non-linear relationships.
@@ -43,7 +43,7 @@ The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engi
 
 ---
 
-## 📊 Results & Visualizations
+##  Results & Visualizations
 
 **Graph 1**: Scatter plot comparing true RUL vs. predicted RUL for Random Forest & LSTM  
 ![Graph 1](images/graph1.png)
@@ -60,7 +60,7 @@ The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engi
 
 ---
 
-## 👥 Contributors
+##  Contributors
 - M. Viswajith (230003040)  
 - Mayank Bhadra (230003043)  
 - Pranshu Devlia (230003052)
