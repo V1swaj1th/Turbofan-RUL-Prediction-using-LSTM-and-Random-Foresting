@@ -1,4 +1,4 @@
-#  IDA Mini Project: Remaining Useful Life Prediction for Turbofan Engines
+# Remaining Useful Life Prediction for Turbofan Engines
 
 ##  Problem Statement
 The project aims to predict the **Remaining Useful Life (RUL)** of turbofan engines using multivariate time series data. Each time series corresponds to a different engine with unknown initial wear and manufacturing variations. Engines operate normally at the start of each series and develop faults over time. The goal is to estimate the number of cycles remaining before failure in the test set.
